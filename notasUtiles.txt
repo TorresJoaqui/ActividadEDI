@@ -1,0 +1,5 @@
+req-input valid Clase para indicar buena validacion
+
+req-input input-password invalid Clase para indicar mala validacion
+
+req-input confirm-password Clase para indicar nula validacion

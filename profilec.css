@@ -1,0 +1,31 @@
+nav
+{
+    background-color: #61B0E7 !important;
+}
+
+#person
+{
+    width: 10vh;
+    height: 5vh;
+}
+
+#chat
+{
+    width: 7vh;
+    height: 3vh;
+}
+
+#text-center    
+{
+    text-align: center;
+}
+
+#perfilUser
+{
+    display: flex;
+}
+
+#drop
+{
+    margin: 0;
+}

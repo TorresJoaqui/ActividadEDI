@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+<head>
+
+ <meta charset="utf-8">
+ <title>WorkSpot</title>
+ <meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/fontello.css"> 
+ <link rel="stylesheet" type="text/css" href="js/contacto.js"> 
+ <link rel="stylesheet" href="fontawesome-free/css/all.min.css"> 
+  <link rel="stylesheet" href="indexx.css">
+   
+</head>
+
+<body>
+     <div class="relleno"></div>
+     <div class="container">
+    <div class="row">
+		
+    	<div class="col-0  col-md-3"></div>
+        <div class="col-12 col-md-6">
+    		<form action="login.php" method="POST">
+    		<div id="login-form" class="form-container" data-form-container>
+			<div class="row">
+				<div class="form-title">
+					<span>Login</span>
+				</div>
+			</div>
+			<div class="input-container">
+				<div class="row">
+					<span class="req-input " >
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Legajo"> </span>
+						<input type="text" data-min-length="8" placeholder="Nro de Legajo" name="nroLegajo">
+					</span>
+				</div>
+				<div class="row">
+					<span class="req-input input-password ">
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Password must be at least 8 characters long."> </span>
+						<input type="password" data-min-length="8" placeholder="Password" name="password">
+					</span>
+				</div>
+				
+				<div class="row" style="display:none">
+					<span class="req-input confirm-password">
+						<span class="input-status" data-toggle="tooltip" data-placement="top" title="Password Must Match Initial Password Field."> </span>
+						<input type="password" data-min-length="8" placeholder="Confirm Password">
+					</span>
+				</div>
+				
+				<div class="row">
+					<a class="create-account"> Olvidaste tu contraseña? </a>
+				</div>
+				
+				<div class="row submit-row">
+					<input type="submit" name="submit" class="btn btn-block submit-form" value="Login">
+				</div>
+			</div>
+			</div>
+		
+			</form>
+		</div>
+	    
+		<div class="col-0 col-md-3"></div>
+	
+	</div>
+</div>
+   
+   <footer>
+       <div class="container-fluid" id="footer">
+
+                       <h2 id="work">WorkSpot</h2>
+
+               </div>
+ 
+   </footer>
+    
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
